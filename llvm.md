@@ -1,8 +1,11 @@
-# LLVM
+# 重点
+1. 寄存器分配
+2. 数据流图
+3. 并行优化、存储优化、指令优化
+4. 代码生成
+5. IR表示架构、优化架构
 
-## 编译项目
+# MLIR
+1. IR表示、转换、优化
 
-### llvm
-1. dep: cmake、make、gcc、g++、python、ninja
-2. cmd: cmake -S ../llvm-project/llvm -B build -G Ninja -DLLVM_ENABLE_PROJECTS="clang" -DCMAKE_INSTALL_PREFIX=/path_install
-3. cmd: ninja && ninja install
+# NVVM-PTX
